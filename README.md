@@ -1,5 +1,7 @@
 # Bambu Lab X1C Zusatz
 
+![Bambu Lab X1C Zusatz](https://raw.githubusercontent.com/DerGnom1977/ha-bambulab-x1c-extras/main/images/preview.png)
+
 Statistik, Kosten, Meldungen und Filament-Warnungen für den X1C. Baut auf der Integration ha-bambulab auf.
 
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
