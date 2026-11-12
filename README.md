@@ -4,6 +4,8 @@
 
 Statistik, Kosten, Meldungen und Filament-Warnungen für den X1C. Baut auf der Integration ha-bambulab auf.
 
+![Dashboard](https://raw.githubusercontent.com/DerGnom1977/ha-bambulab-x1c-extras/main/images/dashboard.jpg)
+
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
 `bambulab_x1c/packages/bambulab_x1c.yaml`: Einstellungen sind jetzt eigene Entitäten (Schalter, Zahlen, Auswahlfelder,
 Uhrzeiten), die Logik läuft in Python statt in Automationen und Skripten.
