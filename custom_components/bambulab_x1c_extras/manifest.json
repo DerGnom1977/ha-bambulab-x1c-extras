@@ -1,0 +1,18 @@
+{
+  "domain": "bambulab_x1c_extras",
+  "name": "Bambu Lab X1C Zusatz",
+  "codeowners": [
+    "@DerGnom1977"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "after_dependencies": [
+    "bambu_lab"
+  ],
+  "documentation": "https://github.com/DerGnom1977/ha-bambulab-x1c-extras",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/DerGnom1977/ha-bambulab-x1c-extras/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

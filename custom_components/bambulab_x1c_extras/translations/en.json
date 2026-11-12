@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bambu Lab X1C Zusatz",
+        "description": "Statistik, Kosten, Meldungen und Filament-Warnungen für den X1C. Baut auf der Integration ha-bambulab auf.",
+        "data": {
+          "praefix": "Entitäts-Präfix der Bambu-Integration (z. B. x1c_<seriennummer>)",
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Instanz erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bambu Lab X1C Zusatz",
+        "data": {
+          "praefix": "Entitäts-Präfix der Bambu-Integration (z. B. x1c_<seriennummer>)",
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2"
+        }
+      }
+    }
+  }
+}

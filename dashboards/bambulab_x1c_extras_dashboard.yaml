@@ -1,0 +1,59 @@
+# Dashboard für Home Assistant: Einstellungen → Dashboards → Dashboard hinzufügen,
+# dann oben rechts ⋮ → Raw-Konfigurationseditor und diesen Inhalt einfügen.
+title: Bambu Lab X1C Zusatz
+views:
+- title: Bambu Lab X1C Zusatz
+  path: bambulab_x1c_extras
+  icon: mdi:view-dashboard
+  cards:
+  - type: entities
+    title: Drucker
+    entities:
+    - sensor.x1c_status
+    - binary_sensor.x1c_druckt
+    - sensor.x1c_restzeit
+    - sensor.x1c_fertig_um
+    - sensor.x1c_schicht
+    - sensor.x1c_aktives_filament
+    - sensor.x1c_ams_belegt
+    - sensor.x1c_hms_meldungen
+  - type: entities
+    title: Kosten
+    entities:
+    - sensor.x1c_filamentkosten_druck
+    - sensor.x1c_stromkosten_druck
+    - sensor.x1c_kosten_druck_gesamt
+    - number.x1c_filamentpreis
+    - number.x1c_strompreis
+    - number.x1c_leistung
+  - type: entities
+    title: Statistik
+    entities:
+    - sensor.x1c_druckzeit_heute
+    - sensor.x1c_druckzeit_7_tage
+    - sensor.x1c_druckzeit_30_tage
+    - sensor.x1c_drucke_erfolgreich
+    - sensor.x1c_drucke_fehlgeschlagen
+    - sensor.x1c_erfolgsquote
+    - number.x1c_filament_gesamt
+    - sensor.x1c_letzter_druck
+    - sensor.x1c_letzter_druck_ende
+    - button.x1c_zaehler_zuruecksetzen
+  - type: entities
+    title: Warnungen
+    entities:
+    - switch.x1c_benachrichtigungen
+    - switch.x1c_ziel_ha
+    - switch.x1c_ziel_person1
+    - switch.x1c_ziel_person2
+    - number.x1c_ams_feuchte_grenze
+    - number.x1c_filament_rest_grenze
+    - binary_sensor.x1c_filament_fast_leer
+    - binary_sensor.x1c_hms_ernst
+    - switch.x1c_licht_automatik
+    - button.x1c_test
+    - button.x1c_standardwerte
+  - type: entities
+    title: Diagnose
+    entities:
+    - sensor.x1c_entitaeten_check
